@@ -88,6 +88,7 @@ public class EmployeeController {
     }
 
     // http://localhost:8080/api/employee/evictFromCache/1
+    // Only evict from cache. Do not delete from database
     @GetMapping(path = "/evictFromCache/{id}")
     @CacheEvict(key = "#id", beforeInvocation = true)
     public void evictFromCache(@PathVariable Long id) {
