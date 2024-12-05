@@ -1,7 +1,7 @@
-package com.colak.springcachetutorial.employee.service;
+package com.colak.springtutorial.employee.service;
 
-import com.colak.springcachetutorial.employee.jpa.Employee;
-import com.colak.springcachetutorial.employee.repository.EmployeeRepository;
+import com.colak.springtutorial.employee.jpa.Employee;
+import com.colak.springtutorial.employee.repository.EmployeeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

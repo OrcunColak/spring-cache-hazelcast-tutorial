@@ -1,4 +1,4 @@
-package com.colak.springcachetutorial.employee.dto;
+package com.colak.springtutorial.employee.dto;
 
 import lombok.Getter;
 import lombok.Setter;

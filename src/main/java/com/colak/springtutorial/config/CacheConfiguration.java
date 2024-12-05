@@ -1,4 +1,4 @@
-package com.colak.springcachetutorial.config;
+package com.colak.springtutorial.config;
 
 import com.hazelcast.client.config.ClientConfig;
 import com.hazelcast.client.config.XmlClientConfigBuilder;
